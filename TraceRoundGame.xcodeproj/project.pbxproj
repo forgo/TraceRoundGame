@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F0FA72619A8D6A40018EF40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0FA72519A8D6A40018EF40 /* Foundation.framework */; };
+		4F0FA72819A8D6A40018EF40 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0FA72719A8D6A40018EF40 /* CoreGraphics.framework */; };
+		4F0FA72A19A8D6A40018EF40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0FA72919A8D6A40018EF40 /* UIKit.framework */; };
+		4F0FA73019A8D6A40018EF40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F0FA72E19A8D6A40018EF40 /* InfoPlist.strings */; };
+		4F0FA73219A8D6A40018EF40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0FA73119A8D6A40018EF40 /* main.m */; };
+		4F0FA73619A8D6A40018EF40 /* TRGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0FA73519A8D6A40018EF40 /* TRGAppDelegate.m */; };
+		4F0FA73919A8D6A40018EF40 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0FA73719A8D6A40018EF40 /* Main_iPhone.storyboard */; };
+		4F0FA73C19A8D6A40018EF40 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0FA73A19A8D6A40018EF40 /* Main_iPad.storyboard */; };
+		4F0FA73F19A8D6A40018EF40 /* TRGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0FA73E19A8D6A40018EF40 /* TRGViewController.m */; };
+		4F0FA74119A8D6A40018EF40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F0FA74019A8D6A40018EF40 /* Images.xcassets */; };
+		4F0FA74819A8D6A40018EF40 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0FA74719A8D6A40018EF40 /* XCTest.framework */; };
+		4F0FA74919A8D6A40018EF40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0FA72519A8D6A40018EF40 /* Foundation.framework */; };
+		4F0FA74A19A8D6A40018EF40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0FA72919A8D6A40018EF40 /* UIKit.framework */; };
+		4F0FA75219A8D6A40018EF40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F0FA75019A8D6A40018EF40 /* InfoPlist.strings */; };
+		4F0FA75419A8D6A40018EF40 /* TraceRoundGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0FA75319A8D6A40018EF40 /* TraceRoundGameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F0FA74B19A8D6A40018EF40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F0FA71A19A8D6A40018EF40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F0FA72119A8D6A40018EF40;
+			remoteInfo = TraceRoundGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F0FA72219A8D6A40018EF40 /* TraceRoundGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TraceRoundGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F0FA72519A8D6A40018EF40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4F0FA72719A8D6A40018EF40 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4F0FA72919A8D6A40018EF40 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4F0FA72D19A8D6A40018EF40 /* TraceRoundGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TraceRoundGame-Info.plist"; sourceTree = "<group>"; };
+		4F0FA72F19A8D6A40018EF40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4F0FA73119A8D6A40018EF40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F0FA73319A8D6A40018EF40 /* TraceRoundGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TraceRoundGame-Prefix.pch"; sourceTree = "<group>"; };
+		4F0FA73419A8D6A40018EF40 /* TRGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRGAppDelegate.h; sourceTree = "<group>"; };
+		4F0FA73519A8D6A40018EF40 /* TRGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRGAppDelegate.m; sourceTree = "<group>"; };
+		4F0FA73819A8D6A40018EF40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		4F0FA73B19A8D6A40018EF40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		4F0FA73D19A8D6A40018EF40 /* TRGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRGViewController.h; sourceTree = "<group>"; };
+		4F0FA73E19A8D6A40018EF40 /* TRGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRGViewController.m; sourceTree = "<group>"; };
+		4F0FA74019A8D6A40018EF40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4F0FA74619A8D6A40018EF40 /* TraceRoundGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TraceRoundGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F0FA74719A8D6A40018EF40 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4F0FA74F19A8D6A40018EF40 /* TraceRoundGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TraceRoundGameTests-Info.plist"; sourceTree = "<group>"; };
+		4F0FA75119A8D6A40018EF40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4F0FA75319A8D6A40018EF40 /* TraceRoundGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TraceRoundGameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F0FA71F19A8D6A40018EF40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0FA72819A8D6A40018EF40 /* CoreGraphics.framework in Frameworks */,
+				4F0FA72A19A8D6A40018EF40 /* UIKit.framework in Frameworks */,
+				4F0FA72619A8D6A40018EF40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F0FA74319A8D6A40018EF40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0FA74819A8D6A40018EF40 /* XCTest.framework in Frameworks */,
+				4F0FA74A19A8D6A40018EF40 /* UIKit.framework in Frameworks */,
+				4F0FA74919A8D6A40018EF40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F0FA71919A8D6A40018EF40 = {
+			isa = PBXGroup;
+			children = (
+				4F0FA72B19A8D6A40018EF40 /* TraceRoundGame */,
+				4F0FA74D19A8D6A40018EF40 /* TraceRoundGameTests */,
+				4F0FA72419A8D6A40018EF40 /* Frameworks */,
+				4F0FA72319A8D6A40018EF40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F0FA72319A8D6A40018EF40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F0FA72219A8D6A40018EF40 /* TraceRoundGame.app */,
+				4F0FA74619A8D6A40018EF40 /* TraceRoundGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F0FA72419A8D6A40018EF40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F0FA72519A8D6A40018EF40 /* Foundation.framework */,
+				4F0FA72719A8D6A40018EF40 /* CoreGraphics.framework */,
+				4F0FA72919A8D6A40018EF40 /* UIKit.framework */,
+				4F0FA74719A8D6A40018EF40 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F0FA72B19A8D6A40018EF40 /* TraceRoundGame */ = {
+			isa = PBXGroup;
+			children = (
+				4F0FA73419A8D6A40018EF40 /* TRGAppDelegate.h */,
+				4F0FA73519A8D6A40018EF40 /* TRGAppDelegate.m */,
+				4F0FA73719A8D6A40018EF40 /* Main_iPhone.storyboard */,
+				4F0FA73A19A8D6A40018EF40 /* Main_iPad.storyboard */,
+				4F0FA73D19A8D6A40018EF40 /* TRGViewController.h */,
+				4F0FA73E19A8D6A40018EF40 /* TRGViewController.m */,
+				4F0FA74019A8D6A40018EF40 /* Images.xcassets */,
+				4F0FA72C19A8D6A40018EF40 /* Supporting Files */,
+			);
+			path = TraceRoundGame;
+			sourceTree = "<group>";
+		};
+		4F0FA72C19A8D6A40018EF40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F0FA72D19A8D6A40018EF40 /* TraceRoundGame-Info.plist */,
+				4F0FA72E19A8D6A40018EF40 /* InfoPlist.strings */,
+				4F0FA73119A8D6A40018EF40 /* main.m */,
+				4F0FA73319A8D6A40018EF40 /* TraceRoundGame-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F0FA74D19A8D6A40018EF40 /* TraceRoundGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F0FA75319A8D6A40018EF40 /* TraceRoundGameTests.m */,
+				4F0FA74E19A8D6A40018EF40 /* Supporting Files */,
+			);
+			path = TraceRoundGameTests;
+			sourceTree = "<group>";
+		};
+		4F0FA74E19A8D6A40018EF40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F0FA74F19A8D6A40018EF40 /* TraceRoundGameTests-Info.plist */,
+				4F0FA75019A8D6A40018EF40 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F0FA72119A8D6A40018EF40 /* TraceRoundGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F0FA75719A8D6A40018EF40 /* Build configuration list for PBXNativeTarget "TraceRoundGame" */;
+			buildPhases = (
+				4F0FA71E19A8D6A40018EF40 /* Sources */,
+				4F0FA71F19A8D6A40018EF40 /* Frameworks */,
+				4F0FA72019A8D6A40018EF40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TraceRoundGame;
+			productName = TraceRoundGame;
+			productReference = 4F0FA72219A8D6A40018EF40 /* TraceRoundGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F0FA74519A8D6A40018EF40 /* TraceRoundGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F0FA75A19A8D6A40018EF40 /* Build configuration list for PBXNativeTarget "TraceRoundGameTests" */;
+			buildPhases = (
+				4F0FA74219A8D6A40018EF40 /* Sources */,
+				4F0FA74319A8D6A40018EF40 /* Frameworks */,
+				4F0FA74419A8D6A40018EF40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F0FA74C19A8D6A40018EF40 /* PBXTargetDependency */,
+			);
+			name = TraceRoundGameTests;
+			productName = TraceRoundGameTests;
+			productReference = 4F0FA74619A8D6A40018EF40 /* TraceRoundGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F0FA71A19A8D6A40018EF40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TRG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Beyond Aphelion";
+				TargetAttributes = {
+					4F0FA74519A8D6A40018EF40 = {
+						TestTargetID = 4F0FA72119A8D6A40018EF40;
+					};
+				};
+			};
+			buildConfigurationList = 4F0FA71D19A8D6A40018EF40 /* Build configuration list for PBXProject "TraceRoundGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F0FA71919A8D6A40018EF40;
+			productRefGroup = 4F0FA72319A8D6A40018EF40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F0FA72119A8D6A40018EF40 /* TraceRoundGame */,
+				4F0FA74519A8D6A40018EF40 /* TraceRoundGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F0FA72019A8D6A40018EF40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0FA73C19A8D6A40018EF40 /* Main_iPad.storyboard in Resources */,
+				4F0FA74119A8D6A40018EF40 /* Images.xcassets in Resources */,
+				4F0FA73919A8D6A40018EF40 /* Main_iPhone.storyboard in Resources */,
+				4F0FA73019A8D6A40018EF40 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F0FA74419A8D6A40018EF40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0FA75219A8D6A40018EF40 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F0FA71E19A8D6A40018EF40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0FA73619A8D6A40018EF40 /* TRGAppDelegate.m in Sources */,
+				4F0FA73219A8D6A40018EF40 /* main.m in Sources */,
+				4F0FA73F19A8D6A40018EF40 /* TRGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F0FA74219A8D6A40018EF40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0FA75419A8D6A40018EF40 /* TraceRoundGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F0FA74C19A8D6A40018EF40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F0FA72119A8D6A40018EF40 /* TraceRoundGame */;
+			targetProxy = 4F0FA74B19A8D6A40018EF40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F0FA72E19A8D6A40018EF40 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F0FA72F19A8D6A40018EF40 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4F0FA73719A8D6A40018EF40 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F0FA73819A8D6A40018EF40 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4F0FA73A19A8D6A40018EF40 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F0FA73B19A8D6A40018EF40 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		4F0FA75019A8D6A40018EF40 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F0FA75119A8D6A40018EF40 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F0FA75519A8D6A40018EF40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F0FA75619A8D6A40018EF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F0FA75819A8D6A40018EF40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TraceRoundGame/TraceRoundGame-Prefix.pch";
+				INFOPLIST_FILE = "TraceRoundGame/TraceRoundGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4F0FA75919A8D6A40018EF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TraceRoundGame/TraceRoundGame-Prefix.pch";
+				INFOPLIST_FILE = "TraceRoundGame/TraceRoundGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4F0FA75B19A8D6A40018EF40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TraceRoundGame.app/TraceRoundGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TraceRoundGame/TraceRoundGame-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TraceRoundGameTests/TraceRoundGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4F0FA75C19A8D6A40018EF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TraceRoundGame.app/TraceRoundGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TraceRoundGame/TraceRoundGame-Prefix.pch";
+				INFOPLIST_FILE = "TraceRoundGameTests/TraceRoundGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F0FA71D19A8D6A40018EF40 /* Build configuration list for PBXProject "TraceRoundGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F0FA75519A8D6A40018EF40 /* Debug */,
+				4F0FA75619A8D6A40018EF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F0FA75719A8D6A40018EF40 /* Build configuration list for PBXNativeTarget "TraceRoundGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F0FA75819A8D6A40018EF40 /* Debug */,
+				4F0FA75919A8D6A40018EF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F0FA75A19A8D6A40018EF40 /* Build configuration list for PBXNativeTarget "TraceRoundGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F0FA75B19A8D6A40018EF40 /* Debug */,
+				4F0FA75C19A8D6A40018EF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F0FA71A19A8D6A40018EF40 /* Project object */;
+}
