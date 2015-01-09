@@ -7,6 +7,7 @@
 //
 
 #import "TRGViewController.h"
+#import "TRGConstants.h"
 
 @interface TRGViewController ()
 
@@ -14,16 +15,12 @@
 
 @implementation TRGViewController
 
-- (void)viewDidLoad
+- (IBAction)startNewGame:(id)sender
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    NSString * storyboardName = IPAD ? @"TRGGameplay_iPad" : @"TRGGameplay_iPhone";
+    UIStoryboard * storyboardGameplay = [UIStoryboard storyboardWithName:storyboardName bundle:nil];
+    UIViewController * gameplayViewController = [storyboardGameplay instantiateInitialViewController];
+    [self.navigationController pushViewController:gameplayViewController animated:YES];
 }
 
 @end

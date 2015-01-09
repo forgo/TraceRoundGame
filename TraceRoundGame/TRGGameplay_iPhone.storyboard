@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="aRk-Cx-TtZ">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--Gameplay View Controller-->
+        <scene sceneID="6lT-kZ-EOi">
+            <objects>
+                <viewController id="aRk-Cx-TtZ" customClass="TRGGameplayViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HNA-ag-syw"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hl4-8q-rma"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mXh-Wp-0Tu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gj4-6u-PW6" userLabel="View - Gesture Info">
+                                <rect key="frame" x="0.0" y="64" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gesture Status" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7t3-uj-uHb">
+                                        <rect key="frame" x="10" y="10" width="136" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="20"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gesture Score" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E7H-Re-ifJ">
+                                        <rect key="frame" x="156" y="10" width="154" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="154" id="YEk-LS-A44"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="26"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="7t3-uj-uHb" firstAttribute="leading" secondItem="gj4-6u-PW6" secondAttribute="leading" constant="10" id="Hbm-Cn-cWn"/>
+                                    <constraint firstItem="7t3-uj-uHb" firstAttribute="top" secondItem="gj4-6u-PW6" secondAttribute="top" constant="10" id="VHs-h8-fEm"/>
+                                    <constraint firstAttribute="trailing" secondItem="E7H-Re-ifJ" secondAttribute="trailing" constant="10" id="eBM-vD-ZJH"/>
+                                    <constraint firstItem="E7H-Re-ifJ" firstAttribute="leading" secondItem="7t3-uj-uHb" secondAttribute="trailing" constant="10" id="hoR-di-5SJ"/>
+                                    <constraint firstItem="E7H-Re-ifJ" firstAttribute="top" secondItem="gj4-6u-PW6" secondAttribute="top" constant="10" id="ptC-ek-bXx"/>
+                                    <constraint firstAttribute="height" constant="44" id="q2E-3D-wMF"/>
+                                    <constraint firstAttribute="bottom" secondItem="E7H-Re-ifJ" secondAttribute="bottom" constant="10" id="vNH-mA-A05"/>
+                                    <constraint firstAttribute="bottom" secondItem="7t3-uj-uHb" secondAttribute="bottom" constant="10" id="w5O-7p-hFM"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UlN-Fe-pnA" userLabel="View - Gameplay" customClass="TRGGameplayView">
+                                <rect key="frame" x="0.0" y="108" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5ok-cd-HZ9">
+                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="hQs-ww-wLc"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem title="Play" id="Vof-sa-mfJ" userLabel="Bar Button Item - PlayPause">
+                                        <connections>
+                                            <action selector="playPause:" destination="aRk-Cx-TtZ" id="iaR-4a-1DD"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem systemItem="refresh" id="WgH-u2-mR7">
+                                        <connections>
+                                            <action selector="restart:" destination="aRk-Cx-TtZ" id="7Et-my-4oY"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem systemItem="rewind" id="4Ao-6M-EV0">
+                                        <connections>
+                                            <action selector="previousLevel:" destination="aRk-Cx-TtZ" id="FPJ-K4-1WE"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem systemItem="fastForward" id="xyX-Ie-og2">
+                                        <connections>
+                                            <action selector="nextLevel:" destination="aRk-Cx-TtZ" id="e81-TU-d4H"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="f6O-EG-W0X"/>
+                                    <barButtonItem title="Options" id="n6l-op-ObY">
+                                        <connections>
+                                            <action selector="menu:" destination="aRk-Cx-TtZ" id="C2S-4v-YDj"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="UlN-Fe-pnA" firstAttribute="top" secondItem="gj4-6u-PW6" secondAttribute="bottom" id="2YX-kX-cnZ"/>
+                            <constraint firstAttribute="trailing" secondItem="UlN-Fe-pnA" secondAttribute="trailing" id="8bF-Tj-OCI"/>
+                            <constraint firstItem="gj4-6u-PW6" firstAttribute="leading" secondItem="mXh-Wp-0Tu" secondAttribute="leading" id="ERi-Dy-b2d"/>
+                            <constraint firstItem="5ok-cd-HZ9" firstAttribute="leading" secondItem="mXh-Wp-0Tu" secondAttribute="leading" id="GLX-QB-FSQ"/>
+                            <constraint firstAttribute="trailing" secondItem="5ok-cd-HZ9" secondAttribute="trailing" id="J2Y-S3-OiH"/>
+                            <constraint firstItem="5ok-cd-HZ9" firstAttribute="top" secondItem="UlN-Fe-pnA" secondAttribute="bottom" id="Pbs-c3-fMR"/>
+                            <constraint firstItem="gj4-6u-PW6" firstAttribute="top" secondItem="HNA-ag-syw" secondAttribute="bottom" id="RKD-cY-4ks"/>
+                            <constraint firstAttribute="trailing" secondItem="gj4-6u-PW6" secondAttribute="trailing" id="Rbm-bR-ZgL"/>
+                            <constraint firstItem="UlN-Fe-pnA" firstAttribute="top" secondItem="gj4-6u-PW6" secondAttribute="bottom" id="b3J-nd-mfq"/>
+                            <constraint firstItem="UlN-Fe-pnA" firstAttribute="leading" secondItem="mXh-Wp-0Tu" secondAttribute="leading" id="eBS-qe-kxa"/>
+                            <constraint firstItem="Hl4-8q-rma" firstAttribute="top" secondItem="5ok-cd-HZ9" secondAttribute="bottom" id="rUN-9Y-NCP"/>
+                            <constraint firstItem="5ok-cd-HZ9" firstAttribute="top" secondItem="UlN-Fe-pnA" secondAttribute="bottom" id="uxt-GF-gf8"/>
+                        </constraints>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="buttonOptions" destination="n6l-op-ObY" id="jOe-D3-5MB"/>
+                        <outlet property="buttonPlayPause" destination="Vof-sa-mfJ" id="GBt-0S-WZo"/>
+                        <outlet property="buttonRestart" destination="WgH-u2-mR7" id="OF7-Wl-KcF"/>
+                        <outlet property="labelGestureScore" destination="E7H-Re-ifJ" id="b1s-Gq-4Ca"/>
+                        <outlet property="labelGestureStatus" destination="7t3-uj-uHb" id="M1C-wz-z8Y"/>
+                        <outlet property="viewGameplay" destination="UlN-Fe-pnA" id="gdr-O3-PFv"/>
+                        <outlet property="viewGestureInfo" destination="gj4-6u-PW6" id="NWF-Fa-rYX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vpX-by-r6p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="188" y="183"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

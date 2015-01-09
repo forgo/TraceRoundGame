@@ -13,6 +13,17 @@
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([TRGAppDelegate class]));
+        
+        @try {
+            return UIApplicationMain(argc, argv, nil, NSStringFromClass([TRGAppDelegate class]));
+        }
+        @catch (NSException *ex)
+        {
+            NSLog(@"Exception: %@", [ex description]);
+        }
+        
+        
+        
+        
     }
 }

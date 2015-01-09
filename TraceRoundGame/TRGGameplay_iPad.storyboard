@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A379a" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="ld3-cE-RIT">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--Gameplay View Controller-->
+        <scene sceneID="DTM-G4-8Gl">
+            <objects>
+                <viewController id="ld3-cE-RIT" customClass="TRGGameplayViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Kuw-mI-aJB"/>
+                        <viewControllerLayoutGuide type="bottom" id="VTS-Qe-cR4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="05J-F3-z31">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dN3-Jj-y1S" userLabel="View - Gesture Info">
+                                <rect key="frame" x="0.0" y="64" width="768" height="44"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gesture Status" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mv7-CZ-BA4">
+                                        <rect key="frame" x="10" y="10" width="553" height="24"/>
+                                        <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="20"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gesture Score" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5CW-Df-ZOM">
+                                        <rect key="frame" x="583" y="10" width="175" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="175" id="o6v-yG-wod"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="26"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="5CW-Df-ZOM" secondAttribute="trailing" constant="10" id="1ab-iA-pll"/>
+                                    <constraint firstAttribute="bottom" secondItem="5CW-Df-ZOM" secondAttribute="bottom" constant="10" id="JFi-0C-RJd"/>
+                                    <constraint firstItem="5CW-Df-ZOM" firstAttribute="leading" secondItem="mv7-CZ-BA4" secondAttribute="trailing" constant="20" id="Y5K-Kb-c1d"/>
+                                    <constraint firstItem="5CW-Df-ZOM" firstAttribute="top" secondItem="dN3-Jj-y1S" secondAttribute="top" constant="10" id="dJg-5k-tbn"/>
+                                    <constraint firstAttribute="height" constant="44" id="hT6-hZ-3yf"/>
+                                    <constraint firstItem="mv7-CZ-BA4" firstAttribute="leading" secondItem="dN3-Jj-y1S" secondAttribute="leading" constant="10" id="lZA-fW-IWs"/>
+                                    <constraint firstAttribute="bottom" secondItem="mv7-CZ-BA4" secondAttribute="bottom" constant="10" id="qas-Li-kDG"/>
+                                    <constraint firstItem="mv7-CZ-BA4" firstAttribute="top" secondItem="dN3-Jj-y1S" secondAttribute="top" constant="10" id="w6E-3p-yzf"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f7f-X5-wnz" userLabel="View - Gameplay" customClass="TRGGameplayView">
+                                <rect key="frame" x="0.0" y="108" width="768" height="872"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LRj-HZ-DLG">
+                                <rect key="frame" x="0.0" y="980" width="768" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Gey-og-Pw4"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem title="Play" id="IHT-j8-ufd" userLabel="Bar Button Item - PlayPause">
+                                        <connections>
+                                            <action selector="playPause:" destination="ld3-cE-RIT" id="uhG-SV-1dJ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="rzr-Q5-rwa"/>
+                                    <barButtonItem systemItem="refresh" id="xLH-iM-Qeg" userLabel="Bar Button Item - Restart">
+                                        <connections>
+                                            <action selector="restart:" destination="ld3-cE-RIT" id="QzT-Jg-73y"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="b7n-88-fp6"/>
+                                    <barButtonItem systemItem="rewind" id="TU7-UF-eA8">
+                                        <connections>
+                                            <action selector="previousLevel:" destination="ld3-cE-RIT" id="evi-uv-bJ2"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="y6L-bT-vRy"/>
+                                    <barButtonItem systemItem="fastForward" id="fT2-kB-NBA">
+                                        <connections>
+                                            <action selector="nextLevel:" destination="ld3-cE-RIT" id="hhd-Cy-L3F"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="4f5-4o-ysM"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="LQU-6c-gA7"/>
+                                    <barButtonItem title="Options" id="jLq-RK-8nJ" userLabel="Bar Button Item - Options">
+                                        <connections>
+                                            <action selector="menu:" destination="ld3-cE-RIT" id="7Bu-bO-num"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="LRj-HZ-DLG" secondAttribute="trailing" id="0UX-rg-JGF"/>
+                            <constraint firstItem="f7f-X5-wnz" firstAttribute="leading" secondItem="05J-F3-z31" secondAttribute="leading" id="GhU-hn-TmJ"/>
+                            <constraint firstItem="LRj-HZ-DLG" firstAttribute="top" secondItem="f7f-X5-wnz" secondAttribute="bottom" id="P9V-4o-7Nd"/>
+                            <constraint firstItem="f7f-X5-wnz" firstAttribute="top" secondItem="dN3-Jj-y1S" secondAttribute="bottom" id="de0-mp-1Ff"/>
+                            <constraint firstItem="dN3-Jj-y1S" firstAttribute="leading" secondItem="05J-F3-z31" secondAttribute="leading" id="eDS-NP-KgR"/>
+                            <constraint firstAttribute="trailing" secondItem="f7f-X5-wnz" secondAttribute="trailing" id="l7n-PD-Jgs"/>
+                            <constraint firstAttribute="trailing" secondItem="dN3-Jj-y1S" secondAttribute="trailing" id="muC-wR-8Ec"/>
+                            <constraint firstItem="dN3-Jj-y1S" firstAttribute="top" secondItem="05J-F3-z31" secondAttribute="top" constant="64" id="qKQ-bH-7wb"/>
+                            <constraint firstItem="LRj-HZ-DLG" firstAttribute="leading" secondItem="05J-F3-z31" secondAttribute="leading" id="uLf-lX-6Fs"/>
+                            <constraint firstItem="VTS-Qe-cR4" firstAttribute="top" secondItem="LRj-HZ-DLG" secondAttribute="bottom" id="whl-H4-6Gn"/>
+                        </constraints>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="buttonOptions" destination="jLq-RK-8nJ" id="FWI-Dh-CpR"/>
+                        <outlet property="buttonPlayPause" destination="IHT-j8-ufd" id="lcb-pY-sHr"/>
+                        <outlet property="buttonRestart" destination="xLH-iM-Qeg" id="lNU-zY-97u"/>
+                        <outlet property="labelGestureScore" destination="5CW-Df-ZOM" id="5Uj-oa-yP5"/>
+                        <outlet property="labelGestureStatus" destination="mv7-CZ-BA4" id="y9w-lm-OyB"/>
+                        <outlet property="viewGameplay" destination="f7f-X5-wnz" id="wEL-At-y9D"/>
+                        <outlet property="viewGestureInfo" destination="dN3-Jj-y1S" id="jOg-g7-Mij"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r5R-UO-KKf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-344" y="76"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="lightContent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

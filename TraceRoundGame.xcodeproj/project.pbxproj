@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F09146E19BEA6C800CEDF13 /* TRGAudioTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F09146D19BEA6C800CEDF13 /* TRGAudioTrack.m */; };
 		4F0FA72619A8D6A40018EF40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0FA72519A8D6A40018EF40 /* Foundation.framework */; };
 		4F0FA72819A8D6A40018EF40 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0FA72719A8D6A40018EF40 /* CoreGraphics.framework */; };
 		4F0FA72A19A8D6A40018EF40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0FA72919A8D6A40018EF40 /* UIKit.framework */; };
 		4F0FA73019A8D6A40018EF40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F0FA72E19A8D6A40018EF40 /* InfoPlist.strings */; };
 		4F0FA73219A8D6A40018EF40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0FA73119A8D6A40018EF40 /* main.m */; };
 		4F0FA73619A8D6A40018EF40 /* TRGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0FA73519A8D6A40018EF40 /* TRGAppDelegate.m */; };
-		4F0FA73919A8D6A40018EF40 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0FA73719A8D6A40018EF40 /* Main_iPhone.storyboard */; };
-		4F0FA73C19A8D6A40018EF40 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0FA73A19A8D6A40018EF40 /* Main_iPad.storyboard */; };
 		4F0FA73F19A8D6A40018EF40 /* TRGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0FA73E19A8D6A40018EF40 /* TRGViewController.m */; };
 		4F0FA74119A8D6A40018EF40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F0FA74019A8D6A40018EF40 /* Images.xcassets */; };
 		4F0FA74819A8D6A40018EF40 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0FA74719A8D6A40018EF40 /* XCTest.framework */; };
@@ -22,6 +21,40 @@
 		4F0FA74A19A8D6A40018EF40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0FA72919A8D6A40018EF40 /* UIKit.framework */; };
 		4F0FA75219A8D6A40018EF40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F0FA75019A8D6A40018EF40 /* InfoPlist.strings */; };
 		4F0FA75419A8D6A40018EF40 /* TraceRoundGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0FA75319A8D6A40018EF40 /* TraceRoundGameTests.m */; };
+		4F0FA76119A8D7450018EF40 /* TRGGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0FA76019A8D7450018EF40 /* TRGGestureRecognizer.m */; };
+		4F0FA76419A8D8C80018EF40 /* TRGCircleGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0FA76319A8D8C80018EF40 /* TRGCircleGestureRecognizer.m */; };
+		4F0FA76719A8D9C70018EF40 /* TRGCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0FA76619A8D9C70018EF40 /* TRGCircle.m */; };
+		4F0FA76D19A8DB2A0018EF40 /* TRGColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0FA76C19A8DB2A0018EF40 /* TRGColors.m */; };
+		4F0FA77019A8DB8E0018EF40 /* TRGMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0FA76F19A8DB8E0018EF40 /* TRGMath.m */; };
+		4F0FA77519A8E00C0018EF40 /* TRGGameplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0FA77419A8E00C0018EF40 /* TRGGameplayView.m */; };
+		4F0FA77C19A8E4E20018EF40 /* TRGEmitterLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0FA77B19A8E4E20018EF40 /* TRGEmitterLayer.m */; };
+		4F0FA78219A8E8BB0018EF40 /* colorwheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F0FA78019A8E8BB0018EF40 /* colorwheel.png */; };
+		4F0FA78319A8E8BB0018EF40 /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F0FA78119A8E8BB0018EF40 /* fire.png */; };
+		4F0FA78619A8EA970018EF40 /* TRGGameplay_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0FA78519A8EA970018EF40 /* TRGGameplay_iPad.storyboard */; };
+		4F0FA78919A8EB3B0018EF40 /* TRGGameplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0FA78819A8EB3B0018EF40 /* TRGGameplayViewController.m */; };
+		4F0FA78C19A8EC110018EF40 /* TRGGameplayMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0FA78B19A8EC110018EF40 /* TRGGameplayMenuViewController.m */; };
+		4F0FA78F19A8ED8D0018EF40 /* TRGTouchPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0FA78E19A8ED8D0018EF40 /* TRGTouchPathView.m */; };
+		4F0FA79119A8F5220018EF40 /* TRGGameplayMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F0FA79019A8F5220018EF40 /* TRGGameplayMenuViewController.xib */; };
+		4F21F9FA19BE30E000304A25 /* GUGS_Fluid_v1_44.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = 4F6C8DC319BC4A2C00409220 /* GUGS_Fluid_v1_44.sf2 */; };
+		4F21F9FB19BE30E900304A25 /* gorts_filters.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = 4F21F9F919BE2D0E00304A25 /* gorts_filters.sf2 */; };
+		4F6C8DA619BBAD7B00409220 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F6C8DA519BBAD7B00409220 /* AudioToolbox.framework */; };
+		4F6C8DAD19BBF93600409220 /* TRGAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6C8DAC19BBF93600409220 /* TRGAudioController.m */; };
+		4FA6769619E091390039E7C2 /* hexagon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FA6769519E091390039E7C2 /* hexagon.png */; };
+		4FAD9EC519ABE81600D5AAA5 /* TRGGameplay_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FAD9EC419ABE81600D5AAA5 /* TRGGameplay_iPhone.storyboard */; };
+		4FAD9EC819ABEE4F00D5AAA5 /* TRGConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAD9EC719ABEE4F00D5AAA5 /* TRGConstants.m */; };
+		4FCC929019B158CA00FD087E /* TRGThrowTargetGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCC928F19B158CA00FD087E /* TRGThrowTargetGestureRecognizer.m */; };
+		4FCC929319B1608500FD087E /* TRGThrowTargetGestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCC929219B1608500FD087E /* TRGThrowTargetGestureView.m */; };
+		4FCC929619B1618F00FD087E /* TRGCircleGestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCC929519B1618F00FD087E /* TRGCircleGestureView.m */; };
+		4FCC929A19B1B25000FD087E /* TRGTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCC929919B1B25000FD087E /* TRGTarget.m */; };
+		4FCC929D19B55B7F00FD087E /* fail.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FCC929C19B55B7F00FD087E /* fail.png */; };
+		4FCC92A019B5776700FD087E /* TRGScoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCC929F19B5776700FD087E /* TRGScoreController.m */; };
+		4FD6FA5E19F5BF9B00604006 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0FA73719A8D6A40018EF40 /* Main_iPhone.storyboard */; };
+		4FD6FA5F19F5BF9B00604006 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0FA73A19A8D6A40018EF40 /* Main_iPad.storyboard */; };
+		4FDC316619AC0715009632ED /* sphere.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FDC316519AC0715009632ED /* sphere.png */; };
+		4FDC316A19AC0A9C009632ED /* splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4FDC316919AC0A9C009632ED /* splash.jpg */; };
+		4FDC316D19AEBEC1009632ED /* TRGLevelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC316C19AEBEC1009632ED /* TRGLevelController.m */; };
+		4FDC317019AEC4DD009632ED /* levels.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FDC316F19AEC4DD009632ED /* levels.plist */; };
+		4FDC317519AECDB6009632ED /* TRGLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC317419AECDB6009632ED /* TRGLevel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +68,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F09146C19BEA6C800CEDF13 /* TRGAudioTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRGAudioTrack.h; sourceTree = "<group>"; };
+		4F09146D19BEA6C800CEDF13 /* TRGAudioTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRGAudioTrack.m; sourceTree = "<group>"; };
 		4F0FA72219A8D6A40018EF40 /* TraceRoundGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TraceRoundGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F0FA72519A8D6A40018EF40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4F0FA72719A8D6A40018EF40 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +90,62 @@
 		4F0FA74F19A8D6A40018EF40 /* TraceRoundGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TraceRoundGameTests-Info.plist"; sourceTree = "<group>"; };
 		4F0FA75119A8D6A40018EF40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4F0FA75319A8D6A40018EF40 /* TraceRoundGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TraceRoundGameTests.m; sourceTree = "<group>"; };
+		4F0FA75F19A8D7450018EF40 /* TRGGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRGGestureRecognizer.h; sourceTree = "<group>"; };
+		4F0FA76019A8D7450018EF40 /* TRGGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRGGestureRecognizer.m; sourceTree = "<group>"; };
+		4F0FA76219A8D8C80018EF40 /* TRGCircleGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRGCircleGestureRecognizer.h; sourceTree = "<group>"; };
+		4F0FA76319A8D8C80018EF40 /* TRGCircleGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRGCircleGestureRecognizer.m; sourceTree = "<group>"; };
+		4F0FA76519A8D9C70018EF40 /* TRGCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRGCircle.h; sourceTree = "<group>"; };
+		4F0FA76619A8D9C70018EF40 /* TRGCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRGCircle.m; sourceTree = "<group>"; };
+		4F0FA76B19A8DB2A0018EF40 /* TRGColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRGColors.h; sourceTree = "<group>"; };
+		4F0FA76C19A8DB2A0018EF40 /* TRGColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRGColors.m; sourceTree = "<group>"; };
+		4F0FA76E19A8DB8E0018EF40 /* TRGMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRGMath.h; sourceTree = "<group>"; };
+		4F0FA76F19A8DB8E0018EF40 /* TRGMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRGMath.m; sourceTree = "<group>"; };
+		4F0FA77319A8E00C0018EF40 /* TRGGameplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRGGameplayView.h; sourceTree = "<group>"; };
+		4F0FA77419A8E00C0018EF40 /* TRGGameplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRGGameplayView.m; sourceTree = "<group>"; };
+		4F0FA77A19A8E4E20018EF40 /* TRGEmitterLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRGEmitterLayer.h; sourceTree = "<group>"; };
+		4F0FA77B19A8E4E20018EF40 /* TRGEmitterLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRGEmitterLayer.m; sourceTree = "<group>"; };
+		4F0FA78019A8E8BB0018EF40 /* colorwheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorwheel.png; sourceTree = "<group>"; };
+		4F0FA78119A8E8BB0018EF40 /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fire.png; sourceTree = "<group>"; };
+		4F0FA78519A8EA970018EF40 /* TRGGameplay_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TRGGameplay_iPad.storyboard; sourceTree = "<group>"; };
+		4F0FA78719A8EB3B0018EF40 /* TRGGameplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRGGameplayViewController.h; sourceTree = "<group>"; };
+		4F0FA78819A8EB3B0018EF40 /* TRGGameplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRGGameplayViewController.m; sourceTree = "<group>"; };
+		4F0FA78A19A8EC110018EF40 /* TRGGameplayMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRGGameplayMenuViewController.h; sourceTree = "<group>"; };
+		4F0FA78B19A8EC110018EF40 /* TRGGameplayMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRGGameplayMenuViewController.m; sourceTree = "<group>"; };
+		4F0FA78D19A8ED8D0018EF40 /* TRGTouchPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRGTouchPathView.h; sourceTree = "<group>"; };
+		4F0FA78E19A8ED8D0018EF40 /* TRGTouchPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRGTouchPathView.m; sourceTree = "<group>"; };
+		4F0FA79019A8F5220018EF40 /* TRGGameplayMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRGGameplayMenuViewController.xib; sourceTree = "<group>"; };
+		4F21F9F919BE2D0E00304A25 /* gorts_filters.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gorts_filters.sf2; sourceTree = "<group>"; };
+		4F21F9FC19BE3C4800304A25 /* TRGMidiConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRGMidiConstants.h; sourceTree = "<group>"; };
+		4F6C8DA519BBAD7B00409220 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4F6C8DA819BBAED900409220 /* info.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = info.caf; sourceTree = "<group>"; };
+		4F6C8DA919BBAED900409220 /* thump.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = thump.caf; sourceTree = "<group>"; };
+		4F6C8DAA19BBAED900409220 /* kick.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kick.caf; sourceTree = "<group>"; };
+		4F6C8DAB19BBF93600409220 /* TRGAudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRGAudioController.h; sourceTree = "<group>"; };
+		4F6C8DAC19BBF93600409220 /* TRGAudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRGAudioController.m; sourceTree = "<group>"; };
+		4F6C8DC219BC413000409220 /* TRGAudioConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRGAudioConstants.h; sourceTree = "<group>"; };
+		4F6C8DC319BC4A2C00409220 /* GUGS_Fluid_v1_44.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = GUGS_Fluid_v1_44.sf2; sourceTree = "<group>"; };
+		4FA6769519E091390039E7C2 /* hexagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hexagon.png; sourceTree = "<group>"; };
+		4FAD9EC419ABE81600D5AAA5 /* TRGGameplay_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TRGGameplay_iPhone.storyboard; sourceTree = "<group>"; };
+		4FAD9EC619ABEE4F00D5AAA5 /* TRGConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRGConstants.h; sourceTree = "<group>"; };
+		4FAD9EC719ABEE4F00D5AAA5 /* TRGConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRGConstants.m; sourceTree = "<group>"; };
+		4FCC928E19B158CA00FD087E /* TRGThrowTargetGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRGThrowTargetGestureRecognizer.h; sourceTree = "<group>"; };
+		4FCC928F19B158CA00FD087E /* TRGThrowTargetGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRGThrowTargetGestureRecognizer.m; sourceTree = "<group>"; };
+		4FCC929119B1608500FD087E /* TRGThrowTargetGestureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRGThrowTargetGestureView.h; sourceTree = "<group>"; };
+		4FCC929219B1608500FD087E /* TRGThrowTargetGestureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRGThrowTargetGestureView.m; sourceTree = "<group>"; };
+		4FCC929419B1618F00FD087E /* TRGCircleGestureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRGCircleGestureView.h; sourceTree = "<group>"; };
+		4FCC929519B1618F00FD087E /* TRGCircleGestureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRGCircleGestureView.m; sourceTree = "<group>"; };
+		4FCC929819B1B25000FD087E /* TRGTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRGTarget.h; sourceTree = "<group>"; };
+		4FCC929919B1B25000FD087E /* TRGTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRGTarget.m; sourceTree = "<group>"; };
+		4FCC929C19B55B7F00FD087E /* fail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fail.png; sourceTree = "<group>"; };
+		4FCC929E19B5776700FD087E /* TRGScoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRGScoreController.h; sourceTree = "<group>"; };
+		4FCC929F19B5776700FD087E /* TRGScoreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRGScoreController.m; sourceTree = "<group>"; };
+		4FDC316519AC0715009632ED /* sphere.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sphere.png; sourceTree = "<group>"; };
+		4FDC316919AC0A9C009632ED /* splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splash.jpg; sourceTree = "<group>"; };
+		4FDC316B19AEBEC1009632ED /* TRGLevelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRGLevelController.h; sourceTree = "<group>"; };
+		4FDC316C19AEBEC1009632ED /* TRGLevelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRGLevelController.m; sourceTree = "<group>"; };
+		4FDC316F19AEC4DD009632ED /* levels.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = levels.plist; sourceTree = "<group>"; };
+		4FDC317319AECDB6009632ED /* TRGLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRGLevel.h; sourceTree = "<group>"; };
+		4FDC317419AECDB6009632ED /* TRGLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRGLevel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F6C8DA619BBAD7B00409220 /* AudioToolbox.framework in Frameworks */,
 				4F0FA72819A8D6A40018EF40 /* CoreGraphics.framework in Frameworks */,
 				4F0FA72A19A8D6A40018EF40 /* UIKit.framework in Frameworks */,
 				4F0FA72619A8D6A40018EF40 /* Foundation.framework in Frameworks */,
@@ -103,6 +195,7 @@
 		4F0FA72419A8D6A40018EF40 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4F6C8DA519BBAD7B00409220 /* AudioToolbox.framework */,
 				4F0FA72519A8D6A40018EF40 /* Foundation.framework */,
 				4F0FA72719A8D6A40018EF40 /* CoreGraphics.framework */,
 				4F0FA72919A8D6A40018EF40 /* UIKit.framework */,
@@ -116,10 +209,14 @@
 			children = (
 				4F0FA73419A8D6A40018EF40 /* TRGAppDelegate.h */,
 				4F0FA73519A8D6A40018EF40 /* TRGAppDelegate.m */,
-				4F0FA73719A8D6A40018EF40 /* Main_iPhone.storyboard */,
-				4F0FA73A19A8D6A40018EF40 /* Main_iPad.storyboard */,
-				4F0FA73D19A8D6A40018EF40 /* TRGViewController.h */,
-				4F0FA73E19A8D6A40018EF40 /* TRGViewController.m */,
+				4FAD9EC619ABEE4F00D5AAA5 /* TRGConstants.h */,
+				4FAD9EC719ABEE4F00D5AAA5 /* TRGConstants.m */,
+				4F0FA77D19A8E7E70018EF40 /* resources */,
+				4F0FA77119A8DF650018EF40 /* controllers */,
+				4F0FA77219A8DFB90018EF40 /* views */,
+				4F0FA76819A8DAB60018EF40 /* utilities */,
+				4F0FA75D19A8D6E40018EF40 /* gestures */,
+				4F0FA77619A8E0D10018EF40 /* particles */,
 				4F0FA74019A8D6A40018EF40 /* Images.xcassets */,
 				4F0FA72C19A8D6A40018EF40 /* Supporting Files */,
 			);
@@ -153,6 +250,211 @@
 				4F0FA75019A8D6A40018EF40 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F0FA75D19A8D6E40018EF40 /* gestures */ = {
+			isa = PBXGroup;
+			children = (
+				4F0FA75F19A8D7450018EF40 /* TRGGestureRecognizer.h */,
+				4F0FA76019A8D7450018EF40 /* TRGGestureRecognizer.m */,
+				4FCC929719B1B21400FD087E /* targets */,
+				4FCC928D19B1585300FD087E /* throw */,
+			);
+			name = gestures;
+			sourceTree = "<group>";
+		};
+		4F0FA75E19A8D7010018EF40 /* circle */ = {
+			isa = PBXGroup;
+			children = (
+				4F0FA76519A8D9C70018EF40 /* TRGCircle.h */,
+				4F0FA76619A8D9C70018EF40 /* TRGCircle.m */,
+				4F0FA76219A8D8C80018EF40 /* TRGCircleGestureRecognizer.h */,
+				4F0FA76319A8D8C80018EF40 /* TRGCircleGestureRecognizer.m */,
+			);
+			name = circle;
+			sourceTree = "<group>";
+		};
+		4F0FA76819A8DAB60018EF40 /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4FDC317119AECDA0009632ED /* levels */,
+				4F0FA76A19A8DAD90018EF40 /* color */,
+				4F0FA76919A8DACC0018EF40 /* math */,
+			);
+			name = utilities;
+			sourceTree = "<group>";
+		};
+		4F0FA76919A8DACC0018EF40 /* math */ = {
+			isa = PBXGroup;
+			children = (
+				4F0FA76E19A8DB8E0018EF40 /* TRGMath.h */,
+				4F0FA76F19A8DB8E0018EF40 /* TRGMath.m */,
+			);
+			name = math;
+			sourceTree = "<group>";
+		};
+		4F0FA76A19A8DAD90018EF40 /* color */ = {
+			isa = PBXGroup;
+			children = (
+				4F0FA76B19A8DB2A0018EF40 /* TRGColors.h */,
+				4F0FA76C19A8DB2A0018EF40 /* TRGColors.m */,
+			);
+			name = color;
+			sourceTree = "<group>";
+		};
+		4F0FA77119A8DF650018EF40 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4F6C8DAE19BBFB9100409220 /* audio */,
+				4F0FA73D19A8D6A40018EF40 /* TRGViewController.h */,
+				4F0FA73E19A8D6A40018EF40 /* TRGViewController.m */,
+				4F0FA78719A8EB3B0018EF40 /* TRGGameplayViewController.h */,
+				4F0FA78819A8EB3B0018EF40 /* TRGGameplayViewController.m */,
+				4FDC316B19AEBEC1009632ED /* TRGLevelController.h */,
+				4FDC316C19AEBEC1009632ED /* TRGLevelController.m */,
+				4FCC929E19B5776700FD087E /* TRGScoreController.h */,
+				4FCC929F19B5776700FD087E /* TRGScoreController.m */,
+				4F0FA78A19A8EC110018EF40 /* TRGGameplayMenuViewController.h */,
+				4F0FA78B19A8EC110018EF40 /* TRGGameplayMenuViewController.m */,
+				4F0FA79019A8F5220018EF40 /* TRGGameplayMenuViewController.xib */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		4F0FA77219A8DFB90018EF40 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				4F0FA77319A8E00C0018EF40 /* TRGGameplayView.h */,
+				4F0FA77419A8E00C0018EF40 /* TRGGameplayView.m */,
+				4F0FA78D19A8ED8D0018EF40 /* TRGTouchPathView.h */,
+				4F0FA78E19A8ED8D0018EF40 /* TRGTouchPathView.m */,
+				4FCC929419B1618F00FD087E /* TRGCircleGestureView.h */,
+				4FCC929519B1618F00FD087E /* TRGCircleGestureView.m */,
+				4FCC929119B1608500FD087E /* TRGThrowTargetGestureView.h */,
+				4FCC929219B1608500FD087E /* TRGThrowTargetGestureView.m */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		4F0FA77619A8E0D10018EF40 /* particles */ = {
+			isa = PBXGroup;
+			children = (
+				4F0FA77A19A8E4E20018EF40 /* TRGEmitterLayer.h */,
+				4F0FA77B19A8E4E20018EF40 /* TRGEmitterLayer.m */,
+			);
+			name = particles;
+			sourceTree = "<group>";
+		};
+		4F0FA77D19A8E7E70018EF40 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				4F6C8DA719BBAE7F00409220 /* audio */,
+				4FDC316E19AEC23B009632ED /* levels */,
+				4F0FA77F19A8E8480018EF40 /* graphics */,
+				4F0FA77E19A8E8290018EF40 /* storyboards */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		4F0FA77E19A8E8290018EF40 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4F0FA73719A8D6A40018EF40 /* Main_iPhone.storyboard */,
+				4F0FA73A19A8D6A40018EF40 /* Main_iPad.storyboard */,
+				4F0FA78419A8EA830018EF40 /* gameplay */,
+			);
+			name = storyboards;
+			sourceTree = "<group>";
+		};
+		4F0FA77F19A8E8480018EF40 /* graphics */ = {
+			isa = PBXGroup;
+			children = (
+				4FA6769519E091390039E7C2 /* hexagon.png */,
+				4FCC929C19B55B7F00FD087E /* fail.png */,
+				4FDC316519AC0715009632ED /* sphere.png */,
+				4FDC316919AC0A9C009632ED /* splash.jpg */,
+				4F0FA78019A8E8BB0018EF40 /* colorwheel.png */,
+				4F0FA78119A8E8BB0018EF40 /* fire.png */,
+			);
+			name = graphics;
+			sourceTree = "<group>";
+		};
+		4F0FA78419A8EA830018EF40 /* gameplay */ = {
+			isa = PBXGroup;
+			children = (
+				4F0FA78519A8EA970018EF40 /* TRGGameplay_iPad.storyboard */,
+				4FAD9EC419ABE81600D5AAA5 /* TRGGameplay_iPhone.storyboard */,
+			);
+			name = gameplay;
+			sourceTree = "<group>";
+		};
+		4F21F9EB19BCF44300304A25 /* midi */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = midi;
+			sourceTree = "<group>";
+		};
+		4F6C8DA719BBAE7F00409220 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				4F21F9EB19BCF44300304A25 /* midi */,
+				4F6C8DC319BC4A2C00409220 /* GUGS_Fluid_v1_44.sf2 */,
+				4F21F9F919BE2D0E00304A25 /* gorts_filters.sf2 */,
+				4F6C8DA819BBAED900409220 /* info.caf */,
+				4F6C8DA919BBAED900409220 /* thump.caf */,
+				4F6C8DAA19BBAED900409220 /* kick.caf */,
+			);
+			name = audio;
+			sourceTree = "<group>";
+		};
+		4F6C8DAE19BBFB9100409220 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				4F21F9FC19BE3C4800304A25 /* TRGMidiConstants.h */,
+				4F6C8DC219BC413000409220 /* TRGAudioConstants.h */,
+				4F6C8DAB19BBF93600409220 /* TRGAudioController.h */,
+				4F6C8DAC19BBF93600409220 /* TRGAudioController.m */,
+				4F09146C19BEA6C800CEDF13 /* TRGAudioTrack.h */,
+				4F09146D19BEA6C800CEDF13 /* TRGAudioTrack.m */,
+			);
+			name = audio;
+			sourceTree = "<group>";
+		};
+		4FCC928D19B1585300FD087E /* throw */ = {
+			isa = PBXGroup;
+			children = (
+				4FCC928E19B158CA00FD087E /* TRGThrowTargetGestureRecognizer.h */,
+				4FCC928F19B158CA00FD087E /* TRGThrowTargetGestureRecognizer.m */,
+			);
+			name = throw;
+			sourceTree = "<group>";
+		};
+		4FCC929719B1B21400FD087E /* targets */ = {
+			isa = PBXGroup;
+			children = (
+				4FCC929819B1B25000FD087E /* TRGTarget.h */,
+				4FCC929919B1B25000FD087E /* TRGTarget.m */,
+				4F0FA75E19A8D7010018EF40 /* circle */,
+			);
+			name = targets;
+			sourceTree = "<group>";
+		};
+		4FDC316E19AEC23B009632ED /* levels */ = {
+			isa = PBXGroup;
+			children = (
+				4FDC316F19AEC4DD009632ED /* levels.plist */,
+			);
+			name = levels;
+			sourceTree = "<group>";
+		};
+		4FDC317119AECDA0009632ED /* levels */ = {
+			isa = PBXGroup;
+			children = (
+				4FDC317319AECDB6009632ED /* TRGLevel.h */,
+				4FDC317419AECDB6009632ED /* TRGLevel.m */,
+			);
+			name = levels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +505,13 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Beyond Aphelion";
 				TargetAttributes = {
+					4F0FA72119A8D6A40018EF40 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
 					4F0FA74519A8D6A40018EF40 = {
 						TestTargetID = 4F0FA72119A8D6A40018EF40;
 					};
@@ -232,10 +541,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F0FA73C19A8D6A40018EF40 /* Main_iPad.storyboard in Resources */,
+				4FD6FA5E19F5BF9B00604006 /* Main_iPhone.storyboard in Resources */,
+				4FD6FA5F19F5BF9B00604006 /* Main_iPad.storyboard in Resources */,
+				4F21F9FB19BE30E900304A25 /* gorts_filters.sf2 in Resources */,
+				4F21F9FA19BE30E000304A25 /* GUGS_Fluid_v1_44.sf2 in Resources */,
+				4FDC316619AC0715009632ED /* sphere.png in Resources */,
 				4F0FA74119A8D6A40018EF40 /* Images.xcassets in Resources */,
-				4F0FA73919A8D6A40018EF40 /* Main_iPhone.storyboard in Resources */,
 				4F0FA73019A8D6A40018EF40 /* InfoPlist.strings in Resources */,
+				4FCC929D19B55B7F00FD087E /* fail.png in Resources */,
+				4FDC316A19AC0A9C009632ED /* splash.jpg in Resources */,
+				4FAD9EC519ABE81600D5AAA5 /* TRGGameplay_iPhone.storyboard in Resources */,
+				4FA6769619E091390039E7C2 /* hexagon.png in Resources */,
+				4F0FA79119A8F5220018EF40 /* TRGGameplayMenuViewController.xib in Resources */,
+				4F0FA78219A8E8BB0018EF40 /* colorwheel.png in Resources */,
+				4FDC317019AEC4DD009632ED /* levels.plist in Resources */,
+				4F0FA78619A8EA970018EF40 /* TRGGameplay_iPad.storyboard in Resources */,
+				4F0FA78319A8E8BB0018EF40 /* fire.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,8 +576,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F0FA73619A8D6A40018EF40 /* TRGAppDelegate.m in Sources */,
+				4FAD9EC819ABEE4F00D5AAA5 /* TRGConstants.m in Sources */,
+				4F0FA76119A8D7450018EF40 /* TRGGestureRecognizer.m in Sources */,
 				4F0FA73219A8D6A40018EF40 /* main.m in Sources */,
+				4F0FA78C19A8EC110018EF40 /* TRGGameplayMenuViewController.m in Sources */,
+				4F0FA77019A8DB8E0018EF40 /* TRGMath.m in Sources */,
+				4F0FA77C19A8E4E20018EF40 /* TRGEmitterLayer.m in Sources */,
+				4F0FA76719A8D9C70018EF40 /* TRGCircle.m in Sources */,
+				4FCC92A019B5776700FD087E /* TRGScoreController.m in Sources */,
+				4FCC929619B1618F00FD087E /* TRGCircleGestureView.m in Sources */,
+				4F0FA76D19A8DB2A0018EF40 /* TRGColors.m in Sources */,
+				4F09146E19BEA6C800CEDF13 /* TRGAudioTrack.m in Sources */,
+				4F0FA78919A8EB3B0018EF40 /* TRGGameplayViewController.m in Sources */,
+				4F6C8DAD19BBF93600409220 /* TRGAudioController.m in Sources */,
+				4FDC317519AECDB6009632ED /* TRGLevel.m in Sources */,
+				4FDC316D19AEBEC1009632ED /* TRGLevelController.m in Sources */,
 				4F0FA73F19A8D6A40018EF40 /* TRGViewController.m in Sources */,
+				4FCC929A19B1B25000FD087E /* TRGTarget.m in Sources */,
+				4F0FA78F19A8ED8D0018EF40 /* TRGTouchPathView.m in Sources */,
+				4F0FA76419A8D8C80018EF40 /* TRGCircleGestureRecognizer.m in Sources */,
+				4FCC929019B158CA00FD087E /* TRGThrowTargetGestureRecognizer.m in Sources */,
+				4FCC929319B1608500FD087E /* TRGThrowTargetGestureView.m in Sources */,
+				4F0FA77519A8E00C0018EF40 /* TRGGameplayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +812,7 @@
 				4F0FA75919A8D6A40018EF40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F0FA75A19A8D6A40018EF40 /* Build configuration list for PBXNativeTarget "TraceRoundGameTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +821,7 @@
 				4F0FA75C19A8D6A40018EF40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
